@@ -76,12 +76,6 @@ Example User
 Username: nabil
 Password: pass123
 
-## 📷 Screenshots
-
-
-![Login](https://raw.githubusercontent.com/NabilFawzy/lufttest/main/screenshots/1.png)
-
-
 
 
 
