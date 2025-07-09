@@ -1,0 +1,18 @@
+﻿@{
+    var returnUrl = ViewData["ReturnUrl"] as string;
+    var error = ViewData["Error"] as string;
+}
+
+<h2>Login</h2>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <p style="color: red;">@error</p>
+}
+
+<form method="post">
+    <input type="hidden" name="returnUrl" value="@ViewData["ReturnUrl"]" />
+    <input type="text" name="username" />
+    <input type="password" name="password" />
+    <button type="submit">Login</button>
+</form>
