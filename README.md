@@ -11,11 +11,12 @@ A full-stack demo project showcasing modern authentication, API development, and
 ## 📁 Project Structure
 
 Lufttest/
-│
+
 ├── IdentityServer/ # IdentityServer4 for authentication
+
 ├── MyApi/ # ASP.NET Core API with SQLite CRUD
-└── client/
-└── ecommerce/ # Angular frontend app
+
+└── client/ ecommerce/ # Angular frontend app
 
 
 ---
