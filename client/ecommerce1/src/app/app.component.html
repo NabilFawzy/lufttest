@@ -1,0 +1,17 @@
+<div class="auth-container">
+  <!-- Login view -->
+  
+  <div *ngIf="!name" class="login-container center">
+  <button class="login-btn" (click)="login()">🔐 Login</button>
+</div>
+
+  <!-- Authenticated view -->
+  <div *ngIf="name" class="user-section">
+    <p class="welcome-message">Welcome, <strong>{{ name }}</strong></p>
+
+    <!-- Product component -->
+    <app-app-product></app-app-product>
+
+    <button class="logout-button" (click)="logout()">Logout</button>
+  </div>
+</div>
